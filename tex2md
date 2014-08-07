@@ -1,3 +1,0 @@
-###Converting latex to markdown
-
-pandoc -s file.tex -o file.md
