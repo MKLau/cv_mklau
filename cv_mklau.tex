@@ -1,408 +1,459 @@
-% LaTeX Curriculum Vitae Template
-%
-% Copyright (C) 2004-2008 Jason Blevins <jrblevin@sdf.lonestar.org>
-% http://jblevins.org/projects/cv-template
+\documentclass[]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+    \usepackage{xltxtra,xunicode}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+  \newcommand{\euro}{€}
+\fi
+% use microtype if available
+\IfFileExists{microtype.sty}{\usepackage{microtype}}{}
+\ifxetex
+  \usepackage[setpagesize=false, % page size defined by xetex
+              unicode=false, % unicode breaks when used with xetex
+              xetex]{hyperref}
+\else
+  \usepackage[unicode=true]{hyperref}
+\fi
+\hypersetup{breaklinks=true,
+            bookmarks=true,
+            pdfauthor={},
+            pdftitle={},
+            colorlinks=true,
+            citecolor=blue,
+            urlcolor=blue,
+            linkcolor=magenta,
+            pdfborder={0 0 0}}
+\urlstyle{same}  % don't use monospace font for urls
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\setcounter{secnumdepth}{0}
 
-%Convert to markdown
-%pandoc -s cv_mklau.tex -o README
-
-%Upload to github
-%git add -A .;git commit -am update;git push
-
-%dana file address
-%scp ./MLauCV.pdf mkl48@dana.ucc.nau.edu:/home/usr1/mkl48/public_html/bio/
-
-\documentclass[letterpaper]{article}
-
-\usepackage{hyperref}
-\usepackage{geometry}
-
-% Uncomment the following lines to use the Palatino font.  Remove the
-% [osf] bit if you don't like the old style figures.
-
- \usepackage[T1]{fontenc}
- \usepackage[osf]{mathpazo}
-
-% Set your name here
-\def\name{Matthew K. Lau}
-
-% The following metadata will show up in the PDF properties
-\hypersetup{
-  colorlinks = true,
-  urlcolor = black,
-  pdfauthor = {\name},
-  pdfkeywords = {biology ecology community ecology evolution theory
-    applied computation statistics programming informatics},
-  pdftitle = {\name: Curriculum Vitae},
-  pdfsubject = {Curriculum Vitae},
-  pdfpagemode = UseNone
-}
-
-\geometry{textheight=8.5in, textwidth=6in}
-
-% Customize page headers
-\pagestyle{myheadings}
-\markright{\name}
-\thispagestyle{empty}
-
-% Customize section headings
-\usepackage{sectsty}
-\subsectionfont{\rmfamily\mdseries\itshape\large}
-
-% Don't indent paragraphs.
-\setlength\parindent{0em}
-
-% Make lists without bullets
-\renewenvironment{itemize}{
-  \begin{list}{}{
-    \setlength{\leftmargin}{1em}
-  }
-}{
-  \end{list}
-}
+\author{}
+\date{}
 
 \begin{document}
 
-\centerline{\huge\bf \name}
+\begin{center}\rule{3in}{0.4pt}\end{center}
 
-\vspace{0.25in}
-\begin{minipage}[t]{0.5\textwidth}
-  \textit{Postdoctoral Fellow} \\
-  \href{http://harvardforest.fas.harvard.edu}{Harvard Forest} \\
-  \href{http://harvard.edu}{Harvard University} \\
-  324 N. Main St. \\
-  Petersham, MA 01366
+{[}t{]}{0.5} \emph{Postdoctoral
+Fellow}\\\href{http://harvardforest.fas.harvard.edu}{Harvard
+Forest}\\\href{http://harvard.edu}{Harvard University}\\324 N. Main
+St.\\Petersham, MA 01366
 
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-  Office: (978) 756-6165 \\
-  Email: \href{mailto:matthewklau@fas.harvard.edu}{\tt matthewklau@fas.harvard.edu} \\
-  Website: \href{https://github.com/MKLau}{\tt https://github.com/MKLau} \\  
-\end{minipage}
-
-\section{Education}
+{[}t{]}{0.5} Office: (978) 756-6165\\Email:
+\href{mailto:matthewklau@fas.harvard.edu}{matthewklau@fas.harvard.edu}\\Website:
+\url{https://github.com/MKLau}\\ Education =========
 
 \begin{itemize}
-  \item Ph.D. Biology, \href{http://www.nau.edu}{Northern Arizona
-    University}, \href{http://www.mpcer.nau.edu/igert/}{NSF IGERT
-    Fellow}, 2009--2014
-    \begin{itemize}
-%    \item \textsc{Dissertation}:
-    \item \textit{Topic}: The genetics of ecological networks.
-    \item \textit{Advisor}:
-      \href{http://www6.nau.edu/biology/People/Faculty/Whitham/Whitham.htm}{Dr. Thomas G. Whitham} 
-    \end{itemize}
+\item
+  Ph.D.~Biology, \href{http://www.nau.edu}{Northern Arizona University},
+  \href{http://www.mpcer.nau.edu/igert/}{NSF IGERT Fellow}, 2009--2014
 
-  \item M.S. Biology, \href{http://www.nau.edu}{Northern Arizona University}, 2008
-	\begin{itemize}
-    \item \textit{Thesis}: Host species and site contribute to variation in foliar endophyte abundance, diversity and community composition.
-    \item \textit{Advisor}: \href{http://www.nau.edu/~envsci/johnsonlab/index.htm}{Dr. Nancy C. Johnson}
-	\end{itemize}
+  \begin{itemize}
+  \item
+    \emph{Topic}: The genetics of ecological networks.
+  \item
+    \emph{Advisor}:
+    \href{http://www6.nau.edu/biology/People/Faculty/Whitham/Whitham.htm}{Dr.~Thomas
+    G. Whitham}
+  \end{itemize}
+\item
+  M.S. Biology, \href{http://www.nau.edu}{Northern Arizona University},
+  2008
 
-  \item B.S. Biology, \href{http://www.humboldt.edu/~biosci/}{Humboldt State University}, 2004
-    \begin{itemize}
-    \item \textit{Emphasis}: Fungal Ecology
-    \item \textit{Advisors}: Dr. Nathan J. Sanders and Dr. Terry W. Henkel
-    \item \textit{Advanced Study}:
-      \href{http://harvardforest.fas.harvard.edu/education/reu/reu.html}{Harvard
-        Forest REU}, Summer 2003
-    \item \ \ \  \textit{Mentor}: \href{http://harvardforest.fas.harvard.edu/profiles/ellison.html}{Dr. Aaron M. Ellison} 
-    \end{itemize}
+  \begin{itemize}
+  \item
+    \emph{Thesis}: Host species and site contribute to variation in
+    foliar endophyte abundance, diversity and community composition.
+  \item
+    \emph{Advisor}:
+    \href{http://www.nau.edu/~envsci/johnsonlab/index.htm}{Dr.~Nancy C.
+    Johnson}
+  \end{itemize}
+\item
+  B.S. Biology, \href{http://www.humboldt.edu/~biosci/}{Humboldt State
+  University}, 2004
 
+  \begin{itemize}
+  \item
+    \emph{Emphasis}: Fungal Ecology
+  \item
+    \emph{Advisors}: Dr.~Nathan J. Sanders and Dr.~Terry W. Henkel
+  \item
+    \emph{Advanced Study}:
+    \href{http://harvardforest.fas.harvard.edu/education/reu/reu.html}{Harvard
+    Forest REU}, Summer 2003
+  \item
+    ~~~ \emph{Mentor}:
+    \href{http://harvardforest.fas.harvard.edu/profiles/ellison.html}{Dr.~Aaron
+    M. Ellison}
+  \end{itemize}
 \end{itemize}
 
-\section{Awards and Fellowships}
+\section{Awards and Fellowships}\label{awards-and-fellowships}
 
 \begin{itemize}
-\item ARCS Foundation Scholarship (Phoenix Chapter), 2013--2014
-\item Chateaubriand Fellowship (French Embassy), 2011--2012
-\item NSF IGERT Fellowship (Northern Arizona University), 2008--2010
-\item ARCS Foundation Scholarship (Phoenix Chapter), 2007--2008
-\item ARCS Foundation Scholarship (Phoenix Chapter), 2006--2007
-\item Northern Arizona University Minority Student Development Fellowship, 2005--2008
+\item
+  ARCS Foundation Scholarship (Phoenix Chapter), 2013--2014
+\item
+  Chateaubriand Fellowship (French Embassy), 2011--2012
+\item
+  NSF IGERT Fellowship (Northern Arizona University), 2008--2010
+\item
+  ARCS Foundation Scholarship (Phoenix Chapter), 2007--2008
+\item
+  ARCS Foundation Scholarship (Phoenix Chapter), 2006--2007
+\item
+  Northern Arizona University Minority Student Development Fellowship,
+  2005--2008
 \end{itemize}
 
-\section{Computer Software and Language Proficiencies}
-Computer: R, Python, Matlab, \LaTeX, HTML, Bash, Emacs, git, MacOS,
-Linux/Unix and Windows \\
+\section{Computer Software and Language
+Proficiencies}\label{computer-software-and-language-proficiencies}
 
-\\
-Human: English (native speaker), French (not fluent), Mandarin (not
-fluent) and Spanish (not fluent)
+Computer: R, Python, Matlab, LaTeX, HTML, Bash, Emacs, git, MacOS,
+Linux/Unix and Windows\\\\Human: English (native speaker), French (not
+fluent), Mandarin (not fluent) and Spanish (not fluent)
 
-\section{Research Experience}
-
+\section{Research Experience}\label{research-experience}
 
 \begin{itemize}
-\item Visiting Researcher,
-\href{https://www4.bordeaux-aquitaine.inra.fr/biogeco/}{Community Genetics Laboratory}
-(\href{http://www4.bordeaux-aquitaine.inra.fr/biogeco_eng/People/Former-members/Michalet-Richard}{Dr. Richard
-Michalet}), Fall 2011
+\item
+  Visiting Researcher,
+  \href{https://www4.bordeaux-aquitaine.inra.fr/biogeco/}{Community
+  Genetics Laboratory}
+  (\href{http://www4.bordeaux-aquitaine.inra.fr/biogeco_eng/People/Former-members/Michalet-Richard}{Dr.
+  Richard Michalet}), Fall 2011
+\item
+  Visiting Researcher, \href{http://people.uncw.edu/borretts/}{Systems
+  Ecology and Ecoinformatics Lab}
+  (\href{http://people.uncw.edu/borretts/people.html}{Dr.~Stuart
+  Borrett}), Summer 2011
+\item
+  Research Assistant, \href{http://www.poplar.nau.edu/}{Cottonwood
+  Ecology Group}
+  (\href{http://www.poplar.nau.edu/people.php?mode=showus\&user=tgw}{Dr.~Thomas
+  G. Whitham}), 2010--2011
+\item
+  Research Assistant,
+  \href{http://www.nau.edu/~envsci/johnsonlab/index.htm}{The Soil
+  Ecology Lab}
+  (\href{http://www.nau.edu/~envsci/johnsonlab/NCJ.htm}{Dr.~Nancy C.
+  Johnson}), 2005--2008
+\item
+  Research Assistant, Humboldt State University Ant Ecology Lab
+  \href{http://web.utk.edu/~nsanders/nate.html}{(Dr. Nathan J.
+  Sanders)}, 2003
 \end{itemize}
 
-\begin{itemize}
-\item Visiting Researcher,
-\href{http://people.uncw.edu/borretts/}{Systems Ecology and
-  Ecoinformatics Lab}
-(\href{http://people.uncw.edu/borretts/people.html}{Dr. Stuart Borrett}), Summer 2011
-\end{itemize}
+\section{Teaching Experience}\label{teaching-experience}
 
 \begin{itemize}
-\item Research Assistant,
-\href{http://www.poplar.nau.edu/}{Cottonwood Ecology Group} (\href{http://www.poplar.nau.edu/people.php?mode=showus&user=tgw}{Dr. Thomas G. Whitham}), 2010--2011
-\end{itemize}
-
-\begin{itemize}
-\item Research Assistant,
-\href{http://www.nau.edu/~envsci/johnsonlab/index.htm}{The Soil Ecology Lab} (\href{http://www.nau.edu/~envsci/johnsonlab/NCJ.htm}{Dr. Nancy C. Johnson}), 2005--2008
-\end{itemize}
-
-\begin{itemize}
-\item Research Assistant, Humboldt State University Ant Ecology Lab \href{http://web.utk.edu/~nsanders/nate.html}{(Dr. Nathan J. Sanders)},  2003
-\end{itemize}
-
-
-\section{Teaching Experience}
-\begin{itemize}
-\item Seminar on Ethics in Computional Ecology (Harvard Forest,
-  Harvard University), Summer 2014
-\item BIO326L Ecology Lab (Northern Arizona University), Fall 2012--Spring 2013
-\item \href{http://people.uncw.edu/borretts/courses/RworkshopUNCW.pdf}{Introduction to Programming in R (University of North Carolina
-  Wilmington)}, Summer 2011
-\item BIO181 Introductory Biology: The Unity of Life (Northern
-  Arizona Unversity), Fall 2010
-\item BIO680
+\item
+  Seminar on Ethics in Computional Ecology (Harvard Forest, Harvard
+  University), Summer 2014
+\item
+  BIO326L Ecology Lab (Northern Arizona University), Fall 2012--Spring
+  2013
+\item
+  \href{http://people.uncw.edu/borretts/courses/RworkshopUNCW.pdf}{Introduction
+  to Programming in R (University of North Carolina Wilmington)}, Summer
+  2011
+\item
+  BIO181 Introductory Biology: The Unity of Life (Northern Arizona
+  Unversity), Fall 2010
+\item
+  BIO680
   \href{http://www.mpcer.nau.edu/igert/eco_analysis_r.html}{Introduction
-    to Ecological Analyses in R} (Northern Arizona Unversity), Fall
-  2008 and Fall 2009
+  to Ecological Analyses in R} (Northern Arizona Unversity), Fall 2008
+  and Fall 2009
 \end{itemize}
 
-\section{Contributed Software}
-\begin{description}
+\section{Contributed Software}\label{contributed-software}
 
-\item{Matthew K. Lau, Stuart R. Borrett and David E. Hines (2014)
-  enaR: Tools for Ecological Network Analysis. R package version 2.7.}
+{Matthew K. Lau, Stuart R. Borrett and David E. Hines (2014) enaR: Tools
+for Ecological Network Analysis. R package version 2.7.}
 
-\item{Matthew K. Lau and Raj Whitlock (2009) DiversitySampler: Functions for re-sampling a community matrix to compute diversity indices at different sampling levels.. R package version 2.0.}
+{Matthew K. Lau and Raj Whitlock (2009) DiversitySampler: Functions for
+re-sampling a community matrix to compute diversity indices at different
+sampling levels.. R package version 2.0.}
 
-\item{Matthew K. Lau (2009) DTK: Dunnett-Tukey-Kramer Pairwise Multiple
-  Comparison Test Adjusted for Unequal Variances and Unequal Sample Sizes. R
-  package version 3.0.}
+{Matthew K. Lau (2009) DTK: Dunnett-Tukey-Kramer Pairwise Multiple
+Comparison Test Adjusted for Unequal Variances and Unequal Sample Sizes.
+R package version 3.0.}
 
-\end{description}
-
-
-\section{Publications}
+\section{Publications}\label{publications}
 
 \begin{itemize}
-\item Flores-Renter\'{i}a\ L, Lau\ MK, Lamit\ LJ, Gehring CA
-  (2014) An elusive ectomycorrhizal fungus reveals
-  itself: A new species of Geopora (Pyronemataceae) associated with
-  Pinus edulis. Mycologia. DOI 10.3852/13-263.
+\item
+  Flores-Rentería~L, Lau~MK, Lamit~LJ, Gehring CA (2014) An elusive
+  ectomycorrhizal fungus reveals itself: A new species of Geopora
+  (Pyronemataceae) associated with Pinus edulis. Mycologia. DOI
+  10.3852/13-263.
+\item
+  Lamit~LJ, Lau~MK, Sthultz~CM, Wooley~SC, Whitham~TG, \& Gehring~CA
 
-\item Lamit\ LJ, Lau\ MK, Sthultz\ CM, Wooley\ SC, Whitham\ TG, \&
-  Gehring\ CA (2014) Tree genotype and genetically based growth traits
-  structure twig endophyte communities. American Journal of
-  Botany. DOI 10.3732/ajb.1400034.
-
-\item Ikeda\ DH, Bothwell\ HM, Lau\ MK, O'Neill\ G, Grady\ K,
-  Ferrier\ SM, Allan\ G, Shuster\ SM \& Whitham TG
-  (2013) A genetics-based Universal Community Transfer Function for
-  predicting the impacts of climate change on future communities. Functional
-  Ecology 28:65--74.
-
-\item Lau\ MK, Arnold\ EA \& Johnson\ NC (2013)Factors influencing
-  communities of foliar fungal endophytes in riparian woody
-  plants. Fungal Ecology 6: 365--378.
-
-\item \'{A}lvarez-S\'{a}nchez\ FJ, Johnson\ NC, Antoninka\ AJ,
-  Chaudhary\ VB, Lau\ MK, Owen\ SM, S\'{a}nchez-Gallen\ I,
-  Guadarrama\ P, \& Castillo S (2012) Large-scale diversity patterns in
-  spore communities of arbuscular mycorrhizal fungi. In M. Pagano,
-  editor, \textit{Mycorrhiza: Occurrence in Natural and Restored
-    Environments}, Nova Science Publishers, New York (USA).
-
-\item Bowker\ MA, Mu\~noz\ A, Martinez\ T \& Lau\ MK 2012 Rare
-  drought-induced mortality of juniper is enhanced by edaphic
-  stressors and influenced by stand density. Journal of Arid
-  Environments 76:9--16.
-
-\item Lau\ MK, Whitham\ TG, Lamit\ LJ \& Johnson\ NC (2010) Ecological
-  \& Evolutionary Interaction Network Exploration: Addressing the
+  \begin{enumerate}
+  \def\labelenumi{(\arabic{enumi})}
+  \setcounter{enumi}{2013}
+  \itemsep1pt\parskip0pt\parsep0pt
+  \item
+    Tree genotype and genetically based growth traits structure twig
+    endophyte communities. American Journal of Botany. DOI
+    10.3732/ajb.1400034.
+  \end{enumerate}
+\item
+  Ikeda~DH, Bothwell~HM, Lau~MK, O'Neill~G, Grady~K, Ferrier~SM,
+  Allan~G, Shuster~SM \& Whitham TG (2013) A genetics-based Universal
+  Community Transfer Function for predicting the impacts of climate
+  change on future communities. Functional Ecology 28:65--74.
+\item
+  Lau~MK, Arnold~EA \& Johnson~NC (2013)Factors influencing communities
+  of foliar fungal endophytes in riparian woody plants. Fungal Ecology
+  6: 365--378.
+\item
+  Álvarez-Sánchez~FJ, Johnson~NC, Antoninka~AJ, Chaudhary~VB, Lau~MK,
+  Owen~SM, Sánchez-Gallen~I, Guadarrama~P, \& Castillo S (2012)
+  Large-scale diversity patterns in spore communities of arbuscular
+  mycorrhizal fungi. In M. Pagano, editor, \emph{Mycorrhiza: Occurrence
+  in Natural and Restored Environments}, Nova Science Publishers, New
+  York (USA).
+\item
+  Bowker~MA, Muñoz~A, Martinez~T \& Lau~MK 2012 Rare drought-induced
+  mortality of juniper is enhanced by edaphic stressors and influenced
+  by stand density. Journal of Arid Environments 76:9--16.
+\item
+  Lau~MK, Whitham~TG, Lamit~LJ \& Johnson~NC (2010) Ecological \&
+  Evolutionary Interaction Network Exploration: Addressing the
   Complexity of Biological Interactions in Natural Systems with
-  Community Genetics and Statistics. JIFS 7:17--25 
+  Community Genetics and Statistics. JIFS 7:17--25
+\item
+  Price~LB, Johnson~KE, Aziz~M, Lau~MK, Bowers~J, Ravel~J, Keim~PS,
+  Serwadda~D, Wawer~MJ \& Gray~RH (2010) The effects of circumcision on
+  the penis microbiome. PLoS One 5(1):e8422.
+\item
+  Chaudhary~VB, Lau~MK \& Johnson~NC (2008) Macroecology of microbes --
+  biogeography of the Glomeromycota. In V. Ajit, editor,
+  \emph{Mycorrhiza} (3rd Edition), Springer-Verlag, Germany.
+\item
+  Ellison~AM, Chen~J, Diaz~D, Kammerer-Burnham~C \& Lau~M (2005) Changes
+  in ant community structure and composition associated with hemlock
+  decline in New England. Pages 280-289 in B. Onkenand and R. Reardon,
+  editors. \emph{Proceedings of the 3rd Symposium on Hemlock Woolly
+  Adelgid in the Eastern United States}. U.S. Department of Agriculture
+  -- U.S. Forest Service -- Forest Health Technology Enterprise Team,
+  Morgantown, West Virginia.
 
-\item Price\ LB, Johnson\ KE, Aziz\ M, Lau\ MK, Bowers\ J, Ravel\ J,
-  Keim\ PS, Serwadda\ D, Wawer\ MJ \& Gray\ RH (2010) The effects
-  of circumcision on the penis microbiome. PLoS One 5(1):e8422. 
+  \subsection{Manuscripts In Progress}\label{manuscripts-in-progress}
 
-\item Chaudhary\ VB, Lau\ MK \& Johnson\ NC (2008) Macroecology of
-  microbes -- biogeography of the Glomeromycota. In V. Ajit, editor,
-  \textit{Mycorrhiza} (3rd Edition), Springer-Verlag, Germany.
+  \begin{itemize}
+  \item
+    Lau~MK, Borrett~SR, Keith~AR, Shuster~SM \& Whitham~TG (In Prep)
+    Genotypic variation in foundation species generate ecological
+    network structure.
+  \item
+    Butterfield~BJ, Lau~MK, Shutters~S, (In Review Ecology Letters)
+    Merging positive and negative interaction networks provides new
+    insights into community assembly rules.
+  \item
+    Floate~KD, Godbout~J, Lau~MK, Whitham~TG, Isabel~N (Submitted)
+    Plant-herbivore interactions in a trispecific hybrid swarm of
+    cottonwoods: Genetic similarity and the hybrid bridge hypothesis.
+  \item
+    Smith~DS, Lamit~LJ, Lau~MK, Gehring~CA \& Whitham~TG (In Review
+    Ecological Entomology) Change of plant traits by introduced elk
+    negatively affects associated arthropod communities and network
+    structure.
+  \item
+    Borrett~SR \& Lau~MK (Submitted) An open-source package for
+    ecological network analysis in R.
+  \item
+    Stone~AC, Gehring~CA, Lau~MK, Cobb~NS \& Whitham TG (In Prep) Plant
+    mediated indirect effects on communities reduce diversity andPlant
+    mediated indirect genetic effects of scale herbivory alter arthropod
+    community networks on a foundation tree.
+  \end{itemize}
+\end{itemize}
 
-\item Ellison\ AM, Chen\ J, Diaz\ D, Kammerer-Burnham\ C \& Lau\ M
-  (2005) Changes in ant community structure and composition associated
-  with hemlock decline in New England. Pages 280-289 in B. Onkenand
-  and R. Reardon, editors. \textit{Proceedings of the 3rd Symposium on
-    Hemlock Woolly Adelgid in the Eastern United
-    States}. U.S. Department of Agriculture -- U.S. Forest Service --
-  Forest Health Technology Enterprise Team, Morgantown, West
-  Virginia. 
-
-\subsection{Manuscripts In Progress}
+\section{Presentations}\label{presentations}
 
 \begin{itemize}
+\item
+  Lau~MK, Borrett~SR \emph{enaR: Free, open-source tools for ecological
+  network analysis.} Ecological Society of America Meeting (ESA),
+  Minneapolis, MN, August 2013
+\item
+  Lau~MK, Lamit~LJ, Gehring~CA, and Whitham TG \emph{Cottonwood genetics
+  influence lichen interaction network structure.} Université Bordeaux
+  1, Talence, France, December 2011
+\item
+  Whitham~TG, Lau~MK, Lamit~LJ, Smith~DS, Busby~PE, Schweitzer~JA,
+  Gehring~CA, Allan~GJ, Shuster~SM and Newcombe~G * A Community Genetics
+  Approach for Understanding Microbial Community Structure and Feedbacks
+  on a Foundation Tree Species.* Ecological Society of America Meeting
+  (ESA), Pittsburgh, PA, August 2010
+\item
+  Lau~MK, Keith~AR and Whitham~TG \emph{Network structure is linked to
+  the community stability of canopy arthropods associated with Populus
+  angustifolia.} Ecological Society of America Meeting (ESA),
+  Pittsburgh, PA, August 2010
+\item
+  Lau~MK, Johnson~NC, Whitham~TG, Hagenauer~LE, Lamit~LJ and Lonsdorf~EV
+  \emph{A Community Genetics Approach for Understanding Complex
+  Biological Interactions.} 7th International Symposium on Integrated
+  Field Science, Tohoku University, Sendai, Japan, October 2009
+\item
+  Lau~MK, Hagenauer~LE and Whitham~TG \emph{Assemblage-structuring force
+  of species interactions varies spatially and temporally: Co-occurrence
+  analysis of canopy arthropod distributions.} Ecological Society of
+  America Meeting (ESA), Albuquerque, NM, August 2009
+\item
+  Lau~MK, Johnson~NC \emph{Fungal foliar endophyte communities exhibit
+  host species fidelity in woody plants of Arizona riparian forests.}
+  Ecological Society of America Meeting (ESA), Milwaukee, WI, August
+  2008
+\item
+  Lau~MK \emph{Unusual absence of asymptomatic fungal leaf endophytes of
+  Populus fremontii: a potential phytochemical mechanism}. (poster)
+  Ecological Society of America Meeting (ESA), San Jose, CA, August 2007
+\item
+  Whitewater~L, Lau~MK, Johnson~NC \emph{Investigating the potential for
+  local adaptation of the arbuscular mycorrhizal fungus} . (poster) REU
+  Summer Research Symposium, Northern Arizona University, Aug 2007.
+\item
+  Lau~MK, Johnson~NC \emph{Do AMF cultivate their favorite bacteria? A
+  hypothesis for a potential mechanism of AMF adaptation}. (poster) 5th
+  International Conference on Mycorrhiza (ICOM5), Granada, Spain, July
+  2006
 
-\item Lau\ MK, Borrett\ SR, Keith\ AR, Shuster\ SM \& Whitham\ TG (In
-  Prep) Genotypic variation in foundation species generate ecological
-  network structure. 
-
-\item Butterfield\ BJ, Lau\ MK, Shutters\ S, (In Review Ecology
-  Letters) Merging positive and negative interaction networks provides
-  new insights into community assembly rules.
-
-\item Floate\ KD, Godbout\ J, Lau\ MK, Whitham\ TG, Isabel\ N
-  (Submitted) Plant-herbivore interactions in a trispecific hybrid swarm of
-  cottonwoods:  Genetic similarity and the hybrid bridge hypothesis.
-
-\item Smith\ DS, Lamit\ LJ, Lau\ MK, Gehring\ CA \& Whitham\ TG
-  (In Review Ecological Entomology) Change of plant traits by
-  introduced elk negatively affects associated arthropod communities
-  and network structure.
-
-\item Borrett\ SR \& Lau\ MK (Submitted) An open-source package for
-  ecological network analysis in R.
-
-\item Stone\ AC, Gehring\ CA, Lau\ MK, Cobb\ NS \& Whitham TG
-  (In Prep) Plant mediated indirect effects on communities reduce
-  diversity andPlant mediated indirect genetic effects of scale
-  herbivory alter arthropod community networks on a foundation tree.
-
+  \emph{Denotes undergraduate author.}
 \end{itemize}
 
-\end{itemize}
+\section{Professional Activities}\label{professional-activities}
 
-
-\section{Presentations}
+\subsection{Article Reviewer}\label{article-reviewer}
 
 \begin{itemize}
-
-\item Lau\ MK, Borrett\ SR \textit{enaR: Free, open-source tools for
-  ecological network analysis.} Ecological Society of America Meeting
-  (ESA), Minneapolis, MN, August 2013
-
-\item Lau\ MK, Lamit\ LJ, Gehring\ CA, and Whitham TG
-  \textit{Cottonwood genetics influence lichen interaction network
-    structure.} Universit\'{e} Bordeaux 1, Talence, France, December 2011
-
-\item Whitham\ TG, Lau\ MK, Lamit\ LJ, Smith\ DS, Busby\ PE, Schweitzer\ JA, Gehring\ CA, Allan\ GJ, Shuster\ SM and Newcombe\ G \textit{ A Community Genetics Approach for Understanding Microbial Community Structure and Feedbacks on a Foundation Tree Species.} Ecological Society of America Meeting (ESA), Pittsburgh, PA, August 2010
-
-\item Lau\ MK, Keith\ AR and Whitham\ TG \textit{Network structure is linked to the community stability of canopy arthropods associated with Populus angustifolia.} Ecological Society of America Meeting (ESA), Pittsburgh, PA, August 2010
-
-\item Lau\ MK, Johnson\ NC, Whitham\ TG, Hagenauer\ LE, Lamit\ LJ and Lonsdorf\ EV \textit{A Community Genetics Approach for Understanding Complex Biological Interactions.} 7th International Symposium on Integrated Field Science, Tohoku University, Sendai, Japan, October 2009
-
-\item Lau\ MK, Hagenauer\ LE and Whitham\ TG \textit{Assemblage-structuring force of species interactions varies spatially and temporally: Co-occurrence analysis of canopy arthropod distributions.} Ecological Society of America Meeting (ESA), Albuquerque, NM, August 2009
-
-\item Lau\ MK, Johnson\ NC \textit{Fungal foliar endophyte communities exhibit host species fidelity in woody plants of Arizona riparian forests.} Ecological Society of America Meeting (ESA), Milwaukee, WI, August 2008
-
-\item Lau\ MK \textit{Unusual absence of asymptomatic fungal leaf endophytes of 
-Populus fremontii: a potential phytochemical mechanism}. (poster) Ecological Society of America Meeting (ESA), San Jose, CA, August 2007
-
-\item \mbox{*}Whitewater\ L, Lau\ MK, Johnson\ NC \textit{Investigating the
-  potential for local adaptation of the arbuscular mycorrhizal fungus}
-  \textunderline{Gigaspora gigantea}. (poster) REU Summer Research
-  Symposium, Northern Arizona University, Aug 2007.
-
-\item Lau\ MK, Johnson\ NC \textit{Do AMF cultivate their favorite bacteria? A hypothesis for a 
-potential mechanism of AMF adaptation}. (poster) 5th International Conference on Mycorrhiza (ICOM5), Granada, Spain, July 2006
-
-\mbox{*} \textit{Denotes undergraduate author.}
-
+\item
+  \emph{Ecological Monographs}
+\item
+  \emph{Ecology}
+\item
+  \emph{Botany} (formerly \emph{The Canadian Journal of Botany})
+\item
+  \emph{Acta Oecologia}
+\item
+  \emph{Nature}
 \end{itemize}
 
-% %\subsection{University Seminars}
-
-\section{Professional Activities}
-
-\subsection{Article Reviewer}
-\begin{itemize}
-%% \item \textit{Ecology}
-\item \textit{Ecological Monographs} 
-\item \textit{Ecology} 
-\item \textit{Botany} (formerly \textit{The Canadian Journal of Botany}) 
-\item \textit{Acta Oecologia} 
-\item \textit{Nature} 
-\end{itemize}
-
-\subsection{Professional Memberships}
+\subsection{Professional Memberships}\label{professional-memberships}
 
 \begin{itemize}
-\item \href{http://www.conbio.org/}{Socienty for Conservation Biology (SCB)}, 2008--present
-\item \href{http://www.aaas.org/}{British Ecological Society (BES)}, 2008
-\item \href{http://www.aaas.org/}{American Association for the Advancement of Science (AAAS)}, 2008
-\item \href{http://www.esa.org/}{Ecological Society of America (ESA)}, 2005--present
+\item
+  \href{http://www.conbio.org/}{Socienty for Conservation Biology
+  (SCB)}, 2008--present
+\item
+  \href{http://www.aaas.org/}{British Ecological Society (BES)}, 2008
+\item
+  \href{http://www.aaas.org/}{American Association for the Advancement
+  of Science (AAAS)}, 2008
+\item
+  \href{http://www.esa.org/}{Ecological Society of America (ESA)},
+  2005--present
 \end{itemize}
 
-\subsection{Meeting and Workshop Organization}
+\subsection{Meeting and Workshop
+Organization}\label{meeting-and-workshop-organization}
+
 \begin{itemize}
-\item Workshop Coordinator, EU Sponsored White Paper Workshop on Foundation Species Genetics Research Directions, Flagstaff, AZ Spring 2011
-\item Meeting Organizer, Western Mycorrhiza Gathering, Flagstaff, AZ, 2008
-\item Workshop Organizer, IGERT Workshop: Bayesian Statistics in Ecology, Flagstaff, AZ, 2007
-\item Meeting Organizer, Soil Ecology Society Conference, Moab, UT, 2007
+\item
+  Workshop Coordinator, EU Sponsored White Paper Workshop on Foundation
+  Species Genetics Research Directions, Flagstaff, AZ Spring 2011
+\item
+  Meeting Organizer, Western Mycorrhiza Gathering, Flagstaff, AZ, 2008
+\item
+  Workshop Organizer, IGERT Workshop: Bayesian Statistics in Ecology,
+  Flagstaff, AZ, 2007
+\item
+  Meeting Organizer, Soil Ecology Society Conference, Moab, UT, 2007
 \end{itemize}
 
-\subsection{Education and Outreach}
+\subsection{Education and Outreach}\label{education-and-outreach}
+
 \begin{itemize}
-\item Research featured in PBS documentary, \href{http://nau.edu/Research/Feature-Stories/A-Thousand-Invisible-Cords/}{One Thousand Invisible Cords}
-\item Secretary, CO Plateau Chapter of the Society for Conservation Biology, 2010--2012
+\item
+  Research featured in PBS documentary,
+  \href{http://nau.edu/Research/Feature-Stories/A-Thousand-Invisible-Cords/}{One
+  Thousand Invisible Cords}
+\item
+  Secretary, CO Plateau Chapter of the Society for Conservation Biology,
+  2010--2012
 \end{itemize}
 
-\subsection{Student Services}
+\subsection{Student Services}\label{student-services}
+
 \begin{itemize}
-\item President, Biology Graduate Student Association (Northern Arizona University), 2009--2011
-\item Email List Curator, Biology Graduate Student Association (Northern Arizona University), 2008
-\item Social Coordinator, Biology Graduate Student Association (Northern Arizona University), 2006
+\item
+  President, Biology Graduate Student Association (Northern Arizona
+  University), 2009--2011
+\item
+  Email List Curator, Biology Graduate Student Association (Northern
+  Arizona University), 2008
+\item
+  Social Coordinator, Biology Graduate Student Association (Northern
+  Arizona University), 2006
 \end{itemize}
 
+\section{References}\label{references}
 
-\section{References}
+{[}t{]}{0.5}
 
-\begin{minipage}[t]{0.5\textwidth}
 \begin{itemize}
-\item Thomas G. Whitham \\ Regents' Professor \\ Northern Arizona University \\
-  (928) 523-7215 \\
-  \href{mailto:thomas.whitham@nau.edu}{\texttt {thomas.whitham@nau.edu}}
-\item Stuart R. Borrett \\ Assistant Professor \\ University of North
-  Carolina Wilmington\\
-  (910) 962-2411 \\
-  \href{mailto:borretts@uncw.edu}{\tt borretts@uncw.edu}
-\item Matthew A. Bowker \\ Assistant Professor \\ Northern Arizona University \\
-  (928) 523-9302 \\
-  \href{mailto:matthew.bowker@nau.edu}{\tt matthew.bowker@nau.edu}
-
+\item
+  Thomas G. Whitham\\ Regents' Professor\\ Northern Arizona
+  University\\(928)
+  523-7215\\\href{mailto:thomas.whitham@nau.edu}{\texttt{thomas.whitham@nau.edu}}
+\item
+  Stuart R. Borrett\\ Assistant Professor\\ University of North Carolina
+  Wilmington\\(910)
+  962-2411\\\href{mailto:borretts@uncw.edu}{borretts@uncw.edu}
+\item
+  Matthew A. Bowker\\ Assistant Professor\\ Northern Arizona
+  University\\(928)
+  523-9302\\\href{mailto:matthew.bowker@nau.edu}{matthew.bowker@nau.edu}
 \end{itemize}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
+
+{[}t{]}{0.5}
+
 \begin{itemize}
-\item Stephen M. Shuster \\ Professor of Zoology \\ Northern Arizona University \\
-  (928) 523-9302 \\
-  \href{mailto:stephen.shuster@nau.edu}{\tt stephen.shuster@nau.edu}
-\item Nancy C. Johnson \\ Professor of Biology \\ Northern Arizona University \\
-  (928) 523-6473 \\
-  \href{mailto:nancy.johnson@nau.edu}{\tt nancy.johnson@nau.edu}
-\item Aaron M. Ellison \\ Senior Research Fellow \\ Harvard Forest, Harvard University \\
-  (978) 724-3302 \\
-  \href{mailto:aellison@fas.harvard.edu}{\tt aellison@fas.harvard.edu}
+\item
+  Stephen M. Shuster\\ Professor of Zoology\\ Northern Arizona
+  University\\(928)
+  523-9302\\\href{mailto:stephen.shuster@nau.edu}{stephen.shuster@nau.edu}
+\item
+  Nancy C. Johnson\\ Professor of Biology\\ Northern Arizona
+  University\\(928)
+  523-6473\\\href{mailto:nancy.johnson@nau.edu}{nancy.johnson@nau.edu}
+\item
+  Aaron M. Ellison\\ Senior Research Fellow\\ Harvard Forest, Harvard
+  University\\(978)
+  724-3302\\\href{mailto:aellison@fas.harvard.edu}{aellison@fas.harvard.edu}
 \end{itemize}
-\end{minipage}
 
+Last updated:\\
 
-\bigskip
-
-% Footer
-\begin{center}
-\begin{footnotesize}
-Last updated: \today \\
-\end{footnotesize}
-\end{center}
 \end{document}
