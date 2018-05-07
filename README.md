@@ -1,335 +1,332 @@
----
----
+# Matthew K. Lau
 
-**Matthew K. Lau**\
+*postdoctoral fellow*\
+harvard forest\
+harvard university\
+324 n. main st.\
+petersham, ma 01366\
+office: (978) 756-6165\
+email: matthewklau\@fas.harvard.edu\
+website: <https://github.com/mklau>\
 
-2 *Postdoctoral Fellow*\
-Harvard Forest\
-Harvard University\
-324 N. Main St.\
-Petersham, MA 01366\
-Office: (978) 756-6165\
-Email: matthewklau\@fas.harvard.edu\
-Website: <https://github.com/MKLau>\
-
-Education
+education
 =========
 
--   Ph.D. Biology, [Northern Arizona University](http://www.nau.edu),
-    [IGERT Fellow](http://www.mpcer.nau.edu/igert/), 2009--2014
+-   ph.d. biology, [northern arizona university](http://www.nau.edu),
+    [igert fellow](http://www.mpcer.nau.edu/igert/), 2009--2014
 
-    -   *Title*: The evolution of ecological networks.
+    -   *title*: the evolution of ecological networks.
 
-    -   *Advisor*: [Thomas G.
-        Whitham](http://www6.nau.edu/biology/People/Faculty/Whitham/Whitham.htm)
+    -   *advisor*: [thomas g.
+        whitham](http://www6.nau.edu/biology/people/faculty/whitham/whitham.htm)
 
--   M.S. Biology, [Northern Arizona University](http://www.nau.edu),
+-   m.s. biology, [northern arizona university](http://www.nau.edu),
     2008
 
-    -   *Thesis*: Host species and site contribute to variation in
+    -   *thesis*: host species and site contribute to variation in
         foliar endophyte abundance, diversity and community composition.
 
-    -   *Advisor*: [Nancy C.
-        Johnson](http://www.nau.edu/~envsci/johnsonlab/index.htm)
+    -   *advisor*: [nancy c.
+        johnson](http://www.nau.edu/~envsci/johnsonlab/index.htm)
 
--   B.S. Biology, [Humboldt State
-    University](http://www.humboldt.edu/~biosci/), 2004
+-   b.s. biology, [humboldt state
+    university](http://www.humboldt.edu/~biosci/), 2004
 
-    -   *Emphasis*: Fungal Ecology
+    -   *emphasis*: fungal ecology
 
-    -   *Advisors*: Nathan J. Sanders and Terry W. Henkel
+    -   *advisors*: nathan j. sanders and terry w. henkel
 
-    -   *Advanced Study*: [Harvard Forest
-        REU](http://harvardforest.fas.harvard.edu/education/reu/reu.html),
-        Summer 2003, [Aaron M.
-        Ellison](http://harvardforest.fas.harvard.edu/profiles/ellison.html)
+    -   *advanced study*: [harvard forest
+        reu](http://harvardforest.fas.harvard.edu/education/reu/reu.html),
+        summer 2003, [aaron m.
+        ellison](http://harvardforest.fas.harvard.edu/profiles/ellison.html)
 
-Awards and Fellowships
+awards and fellowships
 ======================
 
--   ARCS Foundation Scholarship (Phoenix Chapter), 2013--2014
+-   arcs foundation scholarship (phoenix chapter), 2013--2014
 
--   Chateaubriand Fellowship (French Embassy), 2011--2012
+-   chateaubriand fellowship (french embassy), 2011--2012
 
--   NSF IGERT Fellowship (Northern Arizona University), 2008--2010
+-   nsf igert fellowship (northern arizona university), 2008--2010
 
--   ARCS Foundation Scholarship (Phoenix Chapter), 2007--2008
+-   arcs foundation scholarship (phoenix chapter), 2007--2008
 
--   ARCS Foundation Scholarship (Phoenix Chapter), 2006--2007
+-   arcs foundation scholarship (phoenix chapter), 2006--2007
 
--   Northern Arizona University Minority Student Development Fellowship,
+-   northern arizona university minority student development fellowship,
     2005--2008
 
-Computer Software and Language Proficiencies
+computer software and language proficiencies
 ============================================
 
-Computer: R, Python, Matlab, LaTeX, HTML, Bash, ruby, Emacs, git, MacOS,
-Linux/Unix and Windows\
+computer: r, python, matlab, latex, html, bash, ruby, emacs, git, macos,
+linux/unix and windows\
 \
-Human: English (native speaker), French (not fluent), Mandarin (not
-fluent) and Spanish (not fluent)
+human: english (native speaker), french (not fluent), mandarin (not
+fluent) and spanish (not fluent)
 
-Research Experience
+research experience
 ===================
 
--   Postdoctoral Research Fellow, [Harvard
-    Forest](http://harvardforest.fas.harvard.edu/) ([Aaron M.
-    Ellison](http://harvardforest.fas.harvard.edu/aaron-ellison)),
-    Spring 2014-2018
+-   postdoctoral research fellow, [harvard
+    forest](http://harvardforest.fas.harvard.edu/) ([aaron m.
+    ellison](http://harvardforest.fas.harvard.edu/aaron-ellison)),
+    spring 2014-2018
 
--   Visiting Researcher, [Community Genetics
-    Laboratory](https://www4.bordeaux-aquitaine.inra.fr/biogeco/)
-    ([Richard
-    Michalet](http://www4.bordeaux-aquitaine.inra.fr/biogeco_eng/People/Former-members/Michalet-Richard)),
-    Fall 2011
+-   visiting researcher, [community genetics
+    laboratory](https://www4.bordeaux-aquitaine.inra.fr/biogeco/)
+    ([richard
+    michalet](http://www4.bordeaux-aquitaine.inra.fr/biogeco_eng/people/former-members/michalet-richard)),
+    fall 2011
 
--   Visiting Researcher, [Systems Ecology and Ecoinformatics
-    Lab](http://people.uncw.edu/borretts/) ([Stuart
-    Borrett](http://people.uncw.edu/borretts/people.html)), Summer 2011
+-   visiting researcher, [systems ecology and ecoinformatics
+    lab](http://people.uncw.edu/borretts/) ([stuart
+    borrett](http://people.uncw.edu/borretts/people.html)), summer 2011
 
--   Research Assistant, [Cottonwood Ecology
-    Group](http://www.poplar.nau.edu/) ([Dr. Thomas G.
-    Whitham](http://www.poplar.nau.edu/people.php?mode=showus&user=tgw)),
+-   research assistant, [cottonwood ecology
+    group](http://www.poplar.nau.edu/) ([dr. thomas g.
+    whitham](http://www.poplar.nau.edu/people.php?mode=showus&user=tgw)),
     2010--2011
 
--   Research Assistant, [The Soil Ecology
-    Lab](http://www.nau.edu/~envsci/johnsonlab/index.htm) ([Dr. Nancy C.
-    Johnson](http://www.nau.edu/~envsci/johnsonlab/NCJ.htm)), 2005--2008
+-   research assistant, [the soil ecology
+    lab](http://www.nau.edu/~envsci/johnsonlab/index.htm) ([dr. nancy c.
+    johnson](http://www.nau.edu/~envsci/johnsonlab/ncj.htm)), 2005--2008
 
--   Research Assistant, Humboldt State University Ant Ecology Lab [(Dr.
-    Nathan J. Sanders)](http://web.utk.edu/~nsanders/nate.html), 2003
+-   research assistant, humboldt state university ant ecology lab [(dr.
+    nathan j. sanders)](http://web.utk.edu/~nsanders/nate.html), 2003
 
-Teaching Experience
+teaching experience
 ===================
 
--   Statistical Computing in R (Harvard Forest, Harvard University),
-    Summer 2015-2018
+-   statistical computing in r (harvard forest, harvard university),
+    summer 2015-2018
 
--   Seminar on Ethics in Computional Ecology (Harvard Forest, Harvard
-    University), Summer 2014
+-   seminar on ethics in computional ecology (harvard forest, harvard
+    university), summer 2014
 
--   BIO326L Ecology Lab (Northern Arizona University), Fall 2012--Spring
+-   bio326l ecology lab (northern arizona university), fall 2012--spring
     2013
 
--   [Introduction to Programming in R (University of North Carolina
-    Wilmington)](http://people.uncw.edu/borretts/courses/RworkshopUNCW.pdf),
-    Summer 2011
+-   [introduction to programming in r (university of north carolina
+    wilmington)](http://people.uncw.edu/borretts/courses/rworkshopuncw.pdf),
+    summer 2011
 
--   BIO181 Introductory Biology: The Unity of Life (Northern Arizona
-    Unversity), Fall 2010
+-   bio181 introductory biology: the unity of life (northern arizona
+    unversity), fall 2010
 
--   BIO680 [Introduction to Ecological Analyses in
-    R](http://www.mpcer.nau.edu/igert/eco_analysis_r.html) (Northern
-    Arizona Unversity), Fall 2008 and Fall 2009
+-   bio680 [introduction to ecological analyses in
+    r](http://www.mpcer.nau.edu/igert/eco_analysis_r.html) (northern
+    arizona unversity), fall 2008 and fall 2009
 
-Contributed Software
+contributed software
 ====================
 
-Matthew K. Lau (2018) Rclean: A Tool for Writing Cleaner, more
-Transparent Code (v1.0.1). https://cran.r-project.org/package=Rclean
+matthew k. lau (2018) rclean: a tool for writing cleaner, more
+transparent code (v1.0.1). https://cran.r-project.org/package=rclean
 http://doi.org/10.5281/zenodo.1208640
 
-Thomas Pasquier, and Matthew K Lau. (2018). ProvTools/encapsulator:
+thomas pasquier, and matthew k lau. (2018). provtools/encapsulator:
 create a capsule for scientific projects (v0.1.1).
 http://doi.org/10.5281/zenodo.1199232
 
-Matthew K. Lau, Nathan Justice and Aaron M. Ellison (2018) Virtual
+matthew k. lau, nathan justice and aaron m. ellison (2018) virtual
 pitcher plant microecosystem simulator (v1.0.0).
 https://harvardforest.shinyapps.io/virtualpitcherplant/
 http://doi.org/10.5281/zenodo.1226372
 
-Matthew K. Lau, Stuart R. Borrett, Pawandeep Singh and David E. Hines
-(2017) enaR: Tools for Ecological Network Analysis. R package version
+matthew k. lau, stuart r. borrett, pawandeep singh and david e. hines
+(2017) enar: tools for ecological network analysis. r package version
 3.0.0.
 
-Matthew K. Lau and Raj Whitlock (2009) DiversitySampler: Functions for
+matthew k. lau and raj whitlock (2009) diversitysampler: functions for
 re-sampling a community matrix to compute diversity indices at different
-sampling levels.. R package version 2.0.
+sampling levels.. r package version 2.0.
 
-Matthew K. Lau (2009) DTK: Dunnett-Tukey-Kramer Pairwise Multiple
-Comparison Test Adjusted for Unequal Variances and Unequal Sample Sizes.
-R package version 3.0.
+matthew k. lau (2009) dtk: dunnett-tukey-kramer pairwise multiple
+comparison test adjusted for unequal variances and unequal sample sizes.
+r package version 3.0.
 
-Publications
+publications
 ============
 
--   Lau MK, Ellison AM, Nguyen A, Penick C, DeMarco B, Gotelli NJ,
-    Sanders NJ, Dunn R and Helms Cahan S (2018) Expanded view of the
-    ecological genomics of ant responses to climate change. PeerJ.
-    Submitted.
+-   lau mk, ellison am, nguyen a, penick c, demarco b, gotelli nj,
+    sanders nj, dunn r and helms cahan s (2018) expanded view of the
+    ecological genomics of ant responses to climate change. peerj.
+    submitted.
 
--   Lau MK, Baiser B, Northrop A, Gotelli NJ & Ellison AM (2018) Regime
+-   lau mk, baiser b, northrop a, gotelli nj & ellison am (2018) regime
     shifts and hysteresis in the pitcher-plant microecosystem.
-    Ecological Modeling. Accepted.
+    ecological modeling. accepted.
 
--   Pasquier T, Lau MK, Han X, Fong E, Lerner BS, Boose ER, Crosas M,
-    Ellison AM, Seltzer M (2018) Sharing and Preserving Computational
-    Analyses for Posterity with `encapsulator`. IEEE CiSE. Accepted.
+-   pasquier t, lau mk, han x, fong e, lerner bs, boose er, crosas m,
+    ellison am, seltzer m (2018) sharing and preserving computational
+    analyses for posterity with `encapsulator`. ieee cise. accepted.
 
--   Pasquier T, Lau MK, Trisovic A, Boose ER, Couturier B, Crosas M,
-    Ellison AM, Gibson V, Jones CR, Seltzer M (2018) If these data could
-    talk. Nature Sci. Data. 4: 170114.
+-   pasquier t, lau mk, trisovic a, boose er, couturier b, crosas m,
+    ellison am, gibson v, jones cr, seltzer m (2018) if these data could
+    talk. nature sci. data. 4: 170114.
 
--   Ikeda, Dana H. and Max, Tamara L. and Allan, Gerard J. and Lau,
-    Matthew K. and Shuster, Stephen M. and Whitham, Thomas G. (2017)
-    Genetically informed ecological niche models improve climate change
-    predictions. Glob. Chang. Biol. 23:164-176.
+-   ikeda, dana h. and max, tamara l. and allan, gerard j. and lau,
+    matthew k. and shuster, stephen m. and whitham, thomas g. (2017)
+    genetically informed ecological niche models improve climate change
+    predictions. glob. chang. biol. 23:164-176.
 
--   Keith AR, Bailey JK, Lau MK & Whitham TG (2016) Genetics-based
+-   keith ar, bailey jk, lau mk & whitham tg (2016) genetics-based
     interactions of foundation species affect community diversity,
-    stability and network structure. Proc. R. Soc. B. 281.
+    stability and network structure. proc. r. soc. b. 281.
 
--   Lau MK, Borrett SR, Baiser B, Gotelli NJ & Ellison AM (2017)
-    Ecological network metrics: opportunities for synthesis. Ecosphere.
+-   lau mk, borrett sr, baiser b, gotelli nj & ellison am (2017)
+    ecological network metrics: opportunities for synthesis. ecosphere.
     8: e01900.
 
--   Lau MK, Borrett SR, Keith AR, Shuster SM & Whitham TG (2016)
-    Genotypic variation in foundation species generates network
-    structure that may drive community dynamics and evolution. Ecology.
+-   lau mk, borrett sr, keith ar, shuster sm & whitham tg (2016)
+    genotypic variation in foundation species generates network
+    structure that may drive community dynamics and evolution. ecology.
     97: 733-742.
 
--   Floate KD, Godbout J, Lau MK, Whitham TG, Isabel N (2016)
-    Plant-herbivore interactions in a trispecific hybrid swarm of
-    cottonwoods: Genetic similarity and the hybrid bridge hypothesis.
-    New Phytologist. 209: 832-844.
+-   floate kd, godbout j, lau mk, whitham tg, isabel n (2016)
+    plant-herbivore interactions in a trispecific hybrid swarm of
+    cottonwoods: genetic similarity and the hybrid bridge hypothesis.
+    new phytologist. 209: 832-844.
 
--   Lamit LJ, Busby PE, Lau MK, Compson ZG, Wojtowicz T, Keith AR,
-    Zinkgraf MS, Schweitzer JA, Shuster SM, Gehring CA, Whitham TG
-    (2015), Tree genotype mediates covariance among communities from
-    microbes to lichens and arthropods. Journal of Ecology 103:
+-   lamit lj, busby pe, lau mk, compson zg, wojtowicz t, keith ar,
+    zinkgraf ms, schweitzer ja, shuster sm, gehring ca, whitham tg
+    (2015), tree genotype mediates covariance among communities from
+    microbes to lichens and arthropods. journal of ecology 103:
     840--850.
 
--   Smith DS, Lamit LJ, Lau MK, Gehring CA & Whitham TG (2015) Change of
+-   smith ds, lamit lj, lau mk, gehring ca & whitham tg (2015) change of
     plant traits by introduced elk negatively affects associated
-    arthropod communities and network structure. Acta Oecologia 67:
+    arthropod communities and network structure. acta oecologia 67:
     8-16.
 
--   Smith DS, Lau MK, Jacobs R, Monroy JA, Shuster SM, & Witham TG
-    (2015) Introduced elk alter traits of a native plant and its
-    plant-associated arthropod community. Oecologia DOI
+-   smith ds, lau mk, jacobs r, monroy ja, shuster sm, & witham tg
+    (2015) introduced elk alter traits of a native plant and its
+    plant-associated arthropod community. oecologia doi
     10.1007/s00442-015-3362-y.
 
--   Borrett SR & Lau MK (2014) enaR: An R package for Ecosystem Network
-    Analysis. Methods in Ecology and Evolution 5: 1206-1213.
+-   borrett sr & lau mk (2014) enar: an r package for ecosystem network
+    analysis. methods in ecology and evolution 5: 1206-1213.
 
--   Lau MK (2014) BOOK REVIEW: Grounding ecological networks. Ecology.
+-   lau mk (2014) book review: grounding ecological networks. ecology.
     95:2681--2682.
 
--   Flores-Rentería L, Lau MK, Lamit LJ, & Gehring CA (2014) An elusive
-    ectomycorrhizal fungus reveals itself: A new species of Geopora
-    (Pyronemataceae) associated with Pinus edulis. Mycologia. DOI
+-   flores-rentería l, lau mk, lamit lj, & gehring ca (2014) an elusive
+    ectomycorrhizal fungus reveals itself: a new species of geopora
+    (pyronemataceae) associated with pinus edulis. mycologia. doi
     10.3852/13-263.
 
--   Lamit LJ, Lau MK, Sthultz CM, Wooley SC, Whitham TG, & Gehring CA
-    Tree genotype and genetically based growth traits structure twig
-    endophyte communities. American Journal of Botany. DOI
+-   lamit lj, lau mk, sthultz cm, wooley sc, whitham tg, & gehring ca
+    tree genotype and genetically based growth traits structure twig
+    endophyte communities. american journal of botany. doi
     10.3732/ajb.1400034.
 
--   Ikeda DH, Bothwell HM, Lau MK, O'Neill G, Grady K, Ferrier SM,
-    Allan G, Shuster SM & Whitham TG (2013) A genetics-based Universal
-    Community Transfer Function for predicting the impacts of climate
-    change on future communities. Functional Ecology 28:65--74.
+-   ikeda dh, bothwell hm, lau mk, o'neill g, grady k, ferrier sm,
+    allan g, shuster sm & whitham tg (2013) a genetics-based universal
+    community transfer function for predicting the impacts of climate
+    change on future communities. functional ecology 28:65--74.
 
--   Lau MK, Arnold EA & Johnson NC (2013)Factors influencing communities
-    of foliar fungal endophytes in riparian woody plants. Fungal Ecology
+-   lau mk, arnold ea & johnson nc (2013)factors influencing communities
+    of foliar fungal endophytes in riparian woody plants. fungal ecology
     6: 365--378.
 
--   Álvarez-Sánchez FJ, Johnson NC, Antoninka AJ, Chaudhary VB, Lau MK,
-    Owen SM, Sánchez-Gallen I, Guadarrama P, & Castillo S (2012)
-    Large-scale diversity patterns in spore communities of arbuscular
-    mycorrhizal fungi. In M. Pagano, editor, *Mycorrhiza: Occurrence in
-    Natural and Restored Environments*, Nova Science Publishers, New
-    York (USA).
+-   álvarez-sánchez fj, johnson nc, antoninka aj, chaudhary vb, lau mk,
+    owen sm, sánchez-gallen i, guadarrama p, & castillo s (2012)
+    large-scale diversity patterns in spore communities of arbuscular
+    mycorrhizal fungi. in m. pagano, editor, *mycorrhiza: occurrence in
+    natural and restored environments*, nova science publishers, new
+    york (usa).
 
--   Bowker MA, Muñoz A, Martinez T & Lau MK 2012 Rare drought-induced
+-   bowker ma, muñoz a, martinez t & lau mk 2012 rare drought-induced
     mortality of juniper is enhanced by edaphic stressors and influenced
-    by stand density. Journal of Arid Environments 76:9--16.
+    by stand density. journal of arid environments 76:9--16.
 
--   Lau MK, Whitham TG, Lamit LJ & Johnson NC (2010) Ecological &
-    Evolutionary Interaction Network Exploration: Addressing the
-    Complexity of Biological Interactions in Natural Systems with
-    Community Genetics and Statistics. JIFS 7:17--25
+-   lau mk, whitham tg, lamit lj & johnson nc (2010) ecological &
+    evolutionary interaction network exploration: addressing the
+    complexity of biological interactions in natural systems with
+    community genetics and statistics. jifs 7:17--25
 
--   Price LB, Johnson KE, Aziz M, Lau MK, Bowers J, Ravel J, Keim PS,
-    Serwadda D, Wawer MJ & Gray RH (2010) The effects of circumcision on
-    the penis microbiome. PLoS One 5(1):e8422.
+-   price lb, johnson ke, aziz m, lau mk, bowers j, ravel j, keim ps,
+    serwadda d, wawer mj & gray rh (2010) the effects of circumcision on
+    the penis microbiome. plos one 5(1):e8422.
 
--   Chaudhary VB, Lau MK & Johnson NC (2008) Macroecology of microbes --
-    biogeography of the Glomeromycota. In V. Ajit, editor, *Mycorrhiza*
-    (3rd Edition), Springer-Verlag, Germany.
+-   chaudhary vb, lau mk & johnson nc (2008) macroecology of microbes --
+    biogeography of the glomeromycota. in v. ajit, editor, *mycorrhiza*
+    (3rd edition), springer-verlag, germany.
 
--   Ellison AM, Chen J, Diaz D, Kammerer-Burnham C & Lau M (2005)
-    Changes in ant community structure and composition associated with
-    hemlock decline in New England. Pages 280-289 in B. Onkenand and R.
-    Reardon, editors. *Proceedings of the 3rd Symposium on Hemlock
-    Woolly Adelgid in the Eastern United States*. U.S. Department of
-    Agriculture -- U.S. Forest Service -- Forest Health Technology
-    Enterprise Team, Morgantown, West Virginia.
+-   ellison am, chen j, diaz d, kammerer-burnham c & lau m (2005)
+    changes in ant community structure and composition associated with
+    hemlock decline in new england. pages 280-289 in b. onkenand and r.
+    reardon, editors. *proceedings of the 3rd symposium on hemlock
+    woolly adelgid in the eastern united states*. u.s. department of
+    agriculture -- u.s. forest service -- forest health technology
+    enterprise team, morgantown, west virginia.
 
-Presentations
+presentations
 =============
 
--   Lau MK, Gotelli NJ, Ellison AM (2017) Provenance for reprodicible
-    multi-level foodwebs. Invited: Alfred Wagner Institute Symposium on
-    Applied Foodweb Research. Sylt, Germany.
+-   lau mk, gotelli nj, ellison am (2017) provenance for reprodicible
+    multi-level foodwebs. invited: alfred wagner institute symposium on
+    applied foodweb research. sylt, germany.
 
--   Lau MK & Ellison AM *Temporal scales of coupled ecosystem processes
-    provide a benchmark for alternate ecosystem states Photosynthesis
-    and decomposition in a model micro-ecosystem.*, Ecological Society
-    of America Meeting (ESA), Baltimore, MD, August 2015
+-   lau mk & ellison am *temporal scales of coupled ecosystem processes
+    provide a benchmark for alternate ecosystem states photosynthesis
+    and decomposition in a model micro-ecosystem.*, ecological society
+    of america meeting (esa), baltimore, md, august 2015
 
--   Lau MK *Evolution and Ecological Networks: Merging Community
-    Genetics and Network Ecology.* Ecological Society of America Meeting
-    (ESA), Baltimore, MD, August 2015
+-   lau mk *evolution and ecological networks: merging community
+    genetics and network ecology.* ecological society of america meeting
+    (esa), baltimore, md, august 2015
 
--   Lau MK, Borrett SR *enaR: Free, open-source tools for ecological
-    network analysis.* Ecological Society of America Meeting (ESA),
-    Minneapolis, MN, August 2013
+-   lau mk, borrett sr *enar: free, open-source tools for ecological
+    network analysis.* ecological society of america meeting (esa),
+    minneapolis, mn, august 2013
 
--   Lau MK, Lamit LJ, Gehring CA, and Whitham TG *Cottonwood genetics
-    influence lichen interaction network structure.* Université Bordeaux
-    1, Talence, France, December 2011
+-   lau mk, lamit lj, gehring ca, and whitham tg *cottonwood genetics
+    influence lichen interaction network structure.* université bordeaux
+    1, talence, france, december 2011
 
--   Whitham TG, Lau MK, Lamit LJ, Smith DS, Busby PE, Schweitzer JA,
-    Gehring CA, Allan GJ, Shuster SM and Newcombe G \* A Community
-    Genetics Approach for Understanding Microbial Community Structure
-    and Feedbacks on a Foundation Tree Species.\* Ecological Society of
-    America Meeting (ESA), Pittsburgh, PA, August 2010
+-   whitham tg, lau mk, lamit lj, smith ds, busby pe, schweitzer ja,
+    gehring ca, allan gj, shuster sm and newcombe g \* a community
+    genetics approach for understanding microbial community structure
+    and feedbacks on a foundation tree species.\* ecological society of
+    america meeting (esa), pittsburgh, pa, august 2010
 
--   Lau MK, Keith AR and Whitham TG *Network structure is linked to the
-    community stability of canopy arthropods associated with Populus
-    angustifolia.* Ecological Society of America Meeting (ESA),
-    Pittsburgh, PA, August 2010
+-   lau mk, keith ar and whitham tg *network structure is linked to the
+    community stability of canopy arthropods associated with populus
+    angustifolia.* ecological society of america meeting (esa),
+    pittsburgh, pa, august 2010
 
--   Lau MK, Johnson NC, Whitham TG, Hagenauer LE, Lamit LJ and
-    Lonsdorf EV *A Community Genetics Approach for Understanding Complex
-    Biological Interactions.* 7th International Symposium on Integrated
-    Field Science, Tohoku University, Sendai, Japan, October 2009
+-   lau mk, johnson nc, whitham tg, hagenauer le, lamit lj and
+    lonsdorf ev *a community genetics approach for understanding complex
+    biological interactions.* 7th international symposium on integrated
+    field science, tohoku university, sendai, japan, october 2009
 
--   Lau MK, Hagenauer LE and Whitham TG *Assemblage-structuring force of
-    species interactions varies spatially and temporally: Co-occurrence
-    analysis of canopy arthropod distributions.* Ecological Society of
-    America Meeting (ESA), Albuquerque, NM, August 2009
+-   lau mk, hagenauer le and whitham tg *assemblage-structuring force of
+    species interactions varies spatially and temporally: co-occurrence
+    analysis of canopy arthropod distributions.* ecological society of
+    america meeting (esa), albuquerque, nm, august 2009
 
--   Lau MK, Johnson NC *Fungal foliar endophyte communities exhibit host
-    species fidelity in woody plants of Arizona riparian forests.*
-    Ecological Society of America Meeting (ESA), Milwaukee, WI, August
+-   lau mk, johnson nc *fungal foliar endophyte communities exhibit host
+    species fidelity in woody plants of arizona riparian forests.*
+    ecological society of america meeting (esa), milwaukee, wi, august
     2008
 
--   Lau MK *Unusual absence of asymptomatic fungal leaf endophytes of
-    Populus fremontii: a potential phytochemical mechanism*. (poster)
-    Ecological Society of America Meeting (ESA), San Jose, CA, August
+-   lau mk *unusual absence of asymptomatic fungal leaf endophytes of
+    populus fremontii: a potential phytochemical mechanism*. (poster)
+    ecological society of america meeting (esa), san jose, ca, august
     2007
 
--   Whitewater L, Lau MK, Johnson NC *Investigating the potential for
+-   whitewater l, lau mk, johnson nc *investigating the potential for
     local adaptation of the arbuscular mycorrhizal fungus* . (poster)
-    REU Summer Research Symposium, Northern Arizona University,
-    Aug 2007.
+    reu summer research symposium, northern arizona university,
+    aug 2007.
 
--   Lau MK, Johnson NC *Do AMF cultivate their favorite bacteria? A
-    hypothesis for a potential mechanism of AMF adaptation*. (poster)
-    5th International Conference on Mycorrhiza (ICOM5), Granada, Spain,
-    July 2006
+-   lau mk, johnson nc *do amf cultivate their favorite bacteria? a
+    hypothesis for a potential mechanism of amf adaptation*. (poster)
+    5th international conference on mycorrhiza (icom5), granada, spain,
+    july 2006
 
 Professional Activities
 =======================
@@ -413,8 +410,6 @@ Student Services
 
 References
 ==========
-
-2
 
 -   Thomas G. Whitham\
     Regents' Professor\
