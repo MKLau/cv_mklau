@@ -1,18 +1,12 @@
 # Matthew K. Lau
 
-*postdoctoral fellow*\
-harvard forest\
-harvard university\
-324 n. main st.\
-petersham, ma 01366\
-office: (978) 756-6165\
 email: matthewklau\@fas.harvard.edu\
-website: <https://github.com/mklau>\
+website: <https://github.mklau.io>\
 
 education
 =========
 
--   ph.d. biology, [northern arizona university](http://www.nau.edu),
+-   Ph.D. biology, [northern arizona university](http://www.nau.edu),
     [igert fellow](http://www.mpcer.nau.edu/igert/), 2009--2014
 
     -   *title*: the evolution of ecological networks.
@@ -20,7 +14,7 @@ education
     -   *advisor*: [thomas g.
         whitham](http://www6.nau.edu/biology/people/faculty/whitham/whitham.htm)
 
--   m.s. biology, [northern arizona university](http://www.nau.edu),
+-   M.S. biology, [northern arizona university](http://www.nau.edu),
     2008
 
     -   *thesis*: host species and site contribute to variation in
