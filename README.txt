@@ -1,7 +1,4 @@
-**Matthew Kekoa Lau, PhD.**\
-
-::: multicols
-2 *Assistant Professor of*\
+*Assistant Professor of*\
 *Indigenous Knowledge and Practice*\
 \
 Sustainable Community Food Systems Program\
